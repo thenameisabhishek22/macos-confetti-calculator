@@ -1,4 +1,4 @@
-# Scientific Calculator
+# MacOs Calculator
 
 A React-based scientific calculator with a dark theme and interactive UI, including hover effects and colored control circles similar to macOS window controls.
 
@@ -13,7 +13,7 @@ A React-based scientific calculator with a dark theme and interactive UI, includ
 
 ## Installation
 
-1. **Clone the repository**
+1. Clone the repository
 
 ```sh
 git clone https://github.com/thenameisabhishek22/macos-confetti-calculator.git
