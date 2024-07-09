@@ -1,0 +1,41 @@
+.KeypadWrapper {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100%;
+  }
+  
+  .StyledButton {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    height: 60px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .StyledButton.special {
+    background-color: #f0a23b;
+  }
+  
+  .StyledButton:hover {
+    background-color: #444;
+  }
+  
+  .StyledButton.special:hover {
+    background-color: #e59400;
+  }
+  
+  .StyledButton.zero {
+    grid-column: span 2;
+  }
+
+  .StyledButton.corner-left {
+    border-bottom-left-radius: 10px;
+  }
+
+  .StyledButton.corner-right {
+    border-bottom-right-radius: 10px;
+  }
